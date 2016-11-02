@@ -1,0 +1,8 @@
+prefix=/home/rabot/catkin_ws/devel
+
+Name: amcl_navigation
+Description: Description of amcl_navigation
+Version: 1.12.7
+Cflags: -I/home/rabot/catkin_ws/devel/include -I/home/rabot/catkin_ws/src/amcl_navigation/include
+Libs: -L/home/rabot/catkin_ws/devel/lib -lamcl_sensors -lamcl_map -lamcl_pf
+Requires: rosbag roscpp dynamic_reconfigure tf

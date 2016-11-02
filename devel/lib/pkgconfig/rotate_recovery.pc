@@ -1,0 +1,8 @@
+prefix=/home/rabot/catkin_ws/devel
+
+Name: rotate_recovery
+Description: Description of rotate_recovery
+Version: 1.13.1
+Cflags: -I/home/rabot/catkin_ws/src/rotate_recovery/include
+Libs: -L/home/rabot/catkin_ws/devel/lib -lrotate_recovery
+Requires: roscpp pluginlib

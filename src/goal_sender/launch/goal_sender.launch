@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+    <!-- start message converter-->
+    <node pkg="goal_sender" type="goal_sender_converter" name="goal_sender_converter"/>
+
+    <!-- start local goal sender, no need for map -->
+    <node pkg="goal_sender" type="goal_sender_converter" name="goal_sender_converter"/>
+</launch>

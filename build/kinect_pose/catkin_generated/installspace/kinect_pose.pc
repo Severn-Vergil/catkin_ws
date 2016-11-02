@@ -1,0 +1,8 @@
+prefix=/home/rabot/catkin_ws/install
+
+Name: kinect_pose
+Description: Description of kinect_pose
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rabot/catkin_ws/install/lib 
+Requires: roscpp tf

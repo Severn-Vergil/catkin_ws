@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="stitcher" pkg="image_stitcher" type="stitcher">
+  <param name="stitcher_num_frames" type="int" value="20" />
+  <param name="registr_resol" type="double" value="0.6" />
+  <param name="seam_est_resol" type="double" value="0.1" />
+  <param name="compose_resol" type="double" value="-1.0" />
+  <param name="conf_thresh" type="double" value="1.0" />
+  <param name="do_wave_correct" type="bool" value="True" />
+</node>
+\endverbatim
+

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="custom_param_file" default="$(find amcl_navigation)/param/dummy.yaml"/>
+  <!-- Map server -->
+  <arg name="map_file" default="$(env HSR_MAP_FILE)"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+
+  <arg name="initial_pose_x" default="2.0"/> <!-- 70.489998 for laser, 1.35 for HIC robot map --> 
+  <arg name="initial_pose_y" default="0.0"/>  <!-- 70.489998 for laser, 5.70 for HIC robot map -->
+  <arg name="initial_pose_a" default="1.57"/>  <!-- 0.0 for laser, 1.57 for HIC robot map -->
+  <include file="$(find amcl_navigation)/launch/includes/amcl.launch.xml">
+    <arg name="initial_pose_x" value="$(arg initial_pose_x)"/>
+    <arg name="initial_pose_y" value="$(arg initial_pose_y)"/>
+    <arg name="initial_pose_a" value="$(arg initial_pose_a)"/>
+  </include>
+
+   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find amcl_navigation)/rviz/navigation.rviz"/>
+</launch>
+

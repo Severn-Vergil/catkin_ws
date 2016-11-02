@@ -1,0 +1,8 @@
+prefix=/home/rabot/catkin_ws/install
+
+Name: pcl_fusion
+Description: Description of pcl_fusion
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rabot/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg = "image_stitcher" type = "image_stitcher_node" name="stitcher">
+
+  <node pkg = "image_view" type="image_view" name="image_view" output="screen" >
+    <param name="image" value="/kinect2/image_color_stitched" />
+  </node>
+</launch>

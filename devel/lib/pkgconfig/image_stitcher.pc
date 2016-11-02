@@ -1,0 +1,8 @@
+prefix=/home/rabot/catkin_ws/devel
+
+Name: image_stitcher
+Description: Description of image_stitcher
+Version: 0.0.0
+Cflags: -I/home/rabot/catkin_ws/devel/include
+Libs: -L/home/rabot/catkin_ws/devel/lib 
+Requires: cv_bridge dynamic_reconfigure image_transport nav_msgs roscpp sensor_msgs tf

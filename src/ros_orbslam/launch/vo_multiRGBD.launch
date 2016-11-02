@@ -1,0 +1,9 @@
+<!-- -->
+<launch>
+<!--
+    <node pkg="orbslam" type="camera1" name="vo1_orbslam" />
+-->
+    <node pkg="orbslam" type="k2c1" name="vo1_orbslam" />
+    <node pkg="orbslam" type="camera2" name="vo2_orbslam" />
+</launch>
+

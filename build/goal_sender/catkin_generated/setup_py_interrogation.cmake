@@ -1,0 +1,6 @@
+set(goal_sender_SETUP_PY_VERSION "0.0.0")
+set(goal_sender_SETUP_PY_SCRIPTS "")
+set(goal_sender_SETUP_PY_PACKAGES "goal_sender")
+set(goal_sender_SETUP_PY_PACKAGE_DIRS "src/goal_sender")
+set(goal_sender_SETUP_PY_MODULES "")
+set(goal_sender_SETUP_PY_MODULE_DIRS "")

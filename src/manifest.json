@@ -1,0 +1,15 @@
+{
+    "name": "com.ubuntu.developer.username.src",
+    "description": "description of src",
+    "framework": "ubuntu-sdk-14.04-qml",
+    "architecture": "all",
+    "title": "src",
+    "hooks": {
+        "src": {
+            "apparmor": "src.json",
+            "desktop": "src.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": ""
+}

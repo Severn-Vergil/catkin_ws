@@ -1,0 +1,8 @@
+prefix=/home/rabot/catkin_ws/devel
+
+Name: odom_fusion
+Description: Description of odom_fusion
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rabot/catkin_ws/devel/lib 
+Requires: geometry_msgs nav_msgs roscpp tf
