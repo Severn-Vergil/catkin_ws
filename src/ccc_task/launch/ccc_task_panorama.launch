@@ -1,0 +1,4 @@
+<launch>
+	<node pkg = "ccc_task" type = "rotate_node" name = "rotate_node" output="screen"/>
+	<node pkg = "ccc_task" type = "panorama_node" name = "panorama_node" output="screen"/>
+</launch>
