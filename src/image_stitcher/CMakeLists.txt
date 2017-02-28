@@ -132,15 +132,18 @@ include_directories(
 
 ## Declare a C++ executable
  add_executable(image_stitcher_node src/image_stitcher.cpp)
+ add_executable(dualRGBD_stitcher_node src/dualRGBD_stitcher.cpp)
+
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
  add_dependencies(image_stitcher_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+ add_dependencies(dualRGBD_stitcher_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
- target_link_libraries(image_stitcher_node
-   ${catkin_LIBRARIES}
- )
+ target_link_libraries(image_stitcher_node ${catkin_LIBRARIES})
+ target_link_libraries(dualRGBD_stitcher_node ${catkin_LIBRARIES})
+
 
 #############
 ## Install ##

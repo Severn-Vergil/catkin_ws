@@ -12,7 +12,7 @@
 #include <actionlib/client/simple_action_client.h>
 
 #include <cmath>
-#include <string>
+//#include <string>
 using namespace std;
 
 typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;

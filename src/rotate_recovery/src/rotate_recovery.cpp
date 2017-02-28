@@ -62,8 +62,8 @@ void RotateRecovery::initialize(std::string name, tf::TransformListener* tf,
 
     //modified for Kobuki applications
     blp_nh.param("acc_lim_th", acc_lim_th_, 1.0);
-    blp_nh.param("max_rotational_vel", max_rotational_vel_, 0.5);
-    blp_nh.param("min_in_place_rotational_vel", min_rotational_vel_, 0.3);
+    blp_nh.param("max_rotational_vel", max_rotational_vel_, 0.6);
+    blp_nh.param("min_in_place_rotational_vel", min_rotational_vel_, 0.4);
     blp_nh.param("yaw_goal_tolerance", tolerance_, 0.10);
 
     world_model_ = new base_local_planner::CostmapModel(*local_costmap_->getCostmap());
@@ -121,10 +121,10 @@ void RotateRecovery::runBehavior(){
 
       //make sure that the point is legal, if it isn't... we'll abort
       double footprint_cost = world_model_->footprintCost(x, y, theta, local_costmap_->getRobotFootprint(), 0.0, 0.0);
-      if(footprint_cost < 0.0){
-        ROS_ERROR("Rotate recovery can't rotate in place because there is a potential collision. Cost: %.2f", footprint_cost);
-        return;
-      }
+//      if(footprint_cost < 0.0){
+//        ROS_ERROR("Rotate recovery can't rotate in place because there is a potential collision. Cost: %.2f", footprint_cost);
+//        return;
+//      }
 
       sim_angle += sim_granularity_;
     }

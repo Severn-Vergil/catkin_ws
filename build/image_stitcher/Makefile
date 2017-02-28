@@ -150,6 +150,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+image_stitcher/CMakeFiles/dualRGBD_stitcher_node.dir/rule:
+	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_stitcher/CMakeFiles/dualRGBD_stitcher_node.dir/rule
+.PHONY : image_stitcher/CMakeFiles/dualRGBD_stitcher_node.dir/rule
+
+# Convenience name for target.
+dualRGBD_stitcher_node: image_stitcher/CMakeFiles/dualRGBD_stitcher_node.dir/rule
+.PHONY : dualRGBD_stitcher_node
+
+# fast build rule for target.
+dualRGBD_stitcher_node/fast:
+	cd /home/rabot/catkin_ws/build && $(MAKE) -f image_stitcher/CMakeFiles/dualRGBD_stitcher_node.dir/build.make image_stitcher/CMakeFiles/dualRGBD_stitcher_node.dir/build
+.PHONY : dualRGBD_stitcher_node/fast
+
+# Convenience name for target.
 image_stitcher/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
 	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_stitcher/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 .PHONY : image_stitcher/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
@@ -233,6 +247,30 @@ image_stitcher_node/fast:
 	cd /home/rabot/catkin_ws/build && $(MAKE) -f image_stitcher/CMakeFiles/image_stitcher_node.dir/build.make image_stitcher/CMakeFiles/image_stitcher_node.dir/build
 .PHONY : image_stitcher_node/fast
 
+src/dualRGBD_stitcher.o: src/dualRGBD_stitcher.cpp.o
+.PHONY : src/dualRGBD_stitcher.o
+
+# target to build an object file
+src/dualRGBD_stitcher.cpp.o:
+	cd /home/rabot/catkin_ws/build && $(MAKE) -f image_stitcher/CMakeFiles/dualRGBD_stitcher_node.dir/build.make image_stitcher/CMakeFiles/dualRGBD_stitcher_node.dir/src/dualRGBD_stitcher.cpp.o
+.PHONY : src/dualRGBD_stitcher.cpp.o
+
+src/dualRGBD_stitcher.i: src/dualRGBD_stitcher.cpp.i
+.PHONY : src/dualRGBD_stitcher.i
+
+# target to preprocess a source file
+src/dualRGBD_stitcher.cpp.i:
+	cd /home/rabot/catkin_ws/build && $(MAKE) -f image_stitcher/CMakeFiles/dualRGBD_stitcher_node.dir/build.make image_stitcher/CMakeFiles/dualRGBD_stitcher_node.dir/src/dualRGBD_stitcher.cpp.i
+.PHONY : src/dualRGBD_stitcher.cpp.i
+
+src/dualRGBD_stitcher.s: src/dualRGBD_stitcher.cpp.s
+.PHONY : src/dualRGBD_stitcher.s
+
+# target to generate assembly for a file
+src/dualRGBD_stitcher.cpp.s:
+	cd /home/rabot/catkin_ws/build && $(MAKE) -f image_stitcher/CMakeFiles/dualRGBD_stitcher_node.dir/build.make image_stitcher/CMakeFiles/dualRGBD_stitcher_node.dir/src/dualRGBD_stitcher.cpp.s
+.PHONY : src/dualRGBD_stitcher.cpp.s
+
 src/image_stitcher.o: src/image_stitcher.cpp.o
 .PHONY : src/image_stitcher.o
 
@@ -263,6 +301,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... dualRGBD_stitcher_node"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
@@ -276,6 +315,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... src/dualRGBD_stitcher.o"
+	@echo "... src/dualRGBD_stitcher.i"
+	@echo "... src/dualRGBD_stitcher.s"
 	@echo "... src/image_stitcher.o"
 	@echo "... src/image_stitcher.i"
 	@echo "... src/image_stitcher.s"

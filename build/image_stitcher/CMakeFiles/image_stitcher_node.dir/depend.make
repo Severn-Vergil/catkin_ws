@@ -14,6 +14,17 @@ image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt
 image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/image_transport/single_subscriber_publisher.h
 image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/image_transport/subscriber.h
 image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/image_transport/transport_hints.h
+image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/message_filters/connection.h
+image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/message_filters/macros.h
+image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/message_filters/null_types.h
+image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/message_filters/signal1.h
+image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/message_filters/signal9.h
+image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/message_filters/simple_filter.h
+image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/message_filters/subscriber.h
+image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/message_filters/sync_policies/approximate_time.h
+image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/message_filters/sync_policies/exact_time.h
+image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/message_filters/synchronizer.h
+image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/message_filters/time_synchronizer.h
 image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/ros/advertise_options.h
 image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/ros/advertise_service_options.h
 image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o: /opt/ros/indigo/include/ros/assert.h

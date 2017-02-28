@@ -15,6 +15,17 @@ image_stitcher/CMakeFiles/image_stitcher_node.dir/src/image_stitcher.cpp.o
  /opt/ros/indigo/include/image_transport/single_subscriber_publisher.h
  /opt/ros/indigo/include/image_transport/subscriber.h
  /opt/ros/indigo/include/image_transport/transport_hints.h
+ /opt/ros/indigo/include/message_filters/connection.h
+ /opt/ros/indigo/include/message_filters/macros.h
+ /opt/ros/indigo/include/message_filters/null_types.h
+ /opt/ros/indigo/include/message_filters/signal1.h
+ /opt/ros/indigo/include/message_filters/signal9.h
+ /opt/ros/indigo/include/message_filters/simple_filter.h
+ /opt/ros/indigo/include/message_filters/subscriber.h
+ /opt/ros/indigo/include/message_filters/sync_policies/approximate_time.h
+ /opt/ros/indigo/include/message_filters/sync_policies/exact_time.h
+ /opt/ros/indigo/include/message_filters/synchronizer.h
+ /opt/ros/indigo/include/message_filters/time_synchronizer.h
  /opt/ros/indigo/include/ros/advertise_options.h
  /opt/ros/indigo/include/ros/advertise_service_options.h
  /opt/ros/indigo/include/ros/assert.h

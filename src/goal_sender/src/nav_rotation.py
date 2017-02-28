@@ -44,14 +44,15 @@ class NavSquare():
         
         # Set the parameters for the target square
         goal_distance = rospy.get_param("~goal_distance", 0.8)      # meters
-        goal_angle = radians(rospy.get_param("~goal_angle", 90))    # degrees converted to radians
-        linear_speed = rospy.get_param("~linear_speed", 0.10)        # meters per second
-        angular_speed = rospy.get_param("~angular_speed", 0.40)      # radians per second
+        goal_angle = radians(rospy.get_param("~goal_angle", 360))    # degrees converted to radians
+        linear_speed = rospy.get_param("~linear_speed", 0.0)        # meters per second
+        angular_speed = rospy.get_param("~angular_speed", 0.30)      # radians per second
         angular_tolerance = radians(rospy.get_param("~angular_tolerance", 2)) # degrees to radians
         
         # Publisher to control the robot's speed
-        self.cmd_vel = rospy.Publisher('/cmd_vel', Twist, queue_size = 5)
-         
+        # self.cmd_vel = rospy.Publisher('/cmd_vel', Twist, queue_size = 5)
+        self.cmd_vel = rospy.Publisher('/cmd_vel_mux/input/navi', Twist, queue_size = 5) # Kobuki velocity input msg
+
         # The base frame is base_footprint for the TurtleBot but base_link for Pi Robot
         self.base_frame = rospy.get_param('~base_frame', '/base_link')
 

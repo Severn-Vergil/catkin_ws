@@ -134,16 +134,19 @@ include_directories(
 # add_dependencies(goal_sender ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-add_executable(goal_sender_node       src/goal_sender_node.cpp)
-add_executable(goal_sender_converter src/goal_sender_converter.cpp)
+add_executable(goal_sender_node         src/goal_sender_node.cpp)
+add_executable(goal_sender_simple       src/goal_sender_simple.cpp)
+add_executable(goal_sender_converter    src/goal_sender_converter.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-add_dependencies(goal_sender_node   ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(goal_sender_node      ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(goal_sender_simple    ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_dependencies(goal_sender_converter ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(goal_sender_node   ${catkin_LIBRARIES})
+target_link_libraries(goal_sender_simple   ${catkin_LIBRARIES})
 target_link_libraries(goal_sender_converter ${catkin_LIBRARIES})
 
 

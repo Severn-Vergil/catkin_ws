@@ -21,8 +21,6 @@ actionlib/client/simple_action_client.h
 -
 cmath
 -
-string
--
 
 /opt/ros/indigo/include/XmlRpcDecl.h
 ros/macros.h

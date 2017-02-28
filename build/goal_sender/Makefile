@@ -150,90 +150,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-goal_sender/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-.PHONY : goal_sender/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_cpp: goal_sender/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-.PHONY : actionlib_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_generate_messages_cpp/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make goal_sender/CMakeFiles/actionlib_generate_messages_cpp.dir/build
-.PHONY : actionlib_generate_messages_cpp/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-.PHONY : goal_sender/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_lisp: goal_sender/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-.PHONY : actionlib_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_generate_messages_lisp/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make goal_sender/CMakeFiles/actionlib_generate_messages_lisp.dir/build
-.PHONY : actionlib_generate_messages_lisp/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/actionlib_generate_messages_py.dir/rule
-.PHONY : goal_sender/CMakeFiles/actionlib_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_py: goal_sender/CMakeFiles/actionlib_generate_messages_py.dir/rule
-.PHONY : actionlib_generate_messages_py
-
-# fast build rule for target.
-actionlib_generate_messages_py/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/actionlib_generate_messages_py.dir/build.make goal_sender/CMakeFiles/actionlib_generate_messages_py.dir/build
-.PHONY : actionlib_generate_messages_py/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-.PHONY : goal_sender/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_cpp: goal_sender/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-.PHONY : actionlib_msgs_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make goal_sender/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-.PHONY : actionlib_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-.PHONY : goal_sender/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_lisp: goal_sender/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-.PHONY : actionlib_msgs_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make goal_sender/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-.PHONY : actionlib_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-.PHONY : goal_sender/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_py: goal_sender/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-.PHONY : actionlib_msgs_generate_messages_py
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_py/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make goal_sender/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-.PHONY : actionlib_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 goal_sender/CMakeFiles/goal_sender_converter.dir/rule:
 	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/goal_sender_converter.dir/rule
 .PHONY : goal_sender/CMakeFiles/goal_sender_converter.dir/rule
@@ -262,172 +178,18 @@ goal_sender_node/fast:
 .PHONY : goal_sender_node/fast
 
 # Convenience name for target.
-goal_sender/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
-.PHONY : goal_sender/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
+goal_sender/CMakeFiles/goal_sender_simple.dir/rule:
+	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/goal_sender_simple.dir/rule
+.PHONY : goal_sender/CMakeFiles/goal_sender_simple.dir/rule
 
 # Convenience name for target.
-move_base_msgs_generate_messages_cpp: goal_sender/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
-.PHONY : move_base_msgs_generate_messages_cpp
+goal_sender_simple: goal_sender/CMakeFiles/goal_sender_simple.dir/rule
+.PHONY : goal_sender_simple
 
 # fast build rule for target.
-move_base_msgs_generate_messages_cpp/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make goal_sender/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
-.PHONY : move_base_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
-.PHONY : goal_sender/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-move_base_msgs_generate_messages_lisp: goal_sender/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
-.PHONY : move_base_msgs_generate_messages_lisp
-
-# fast build rule for target.
-move_base_msgs_generate_messages_lisp/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make goal_sender/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
-.PHONY : move_base_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
-.PHONY : goal_sender/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-move_base_msgs_generate_messages_py: goal_sender/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
-.PHONY : move_base_msgs_generate_messages_py
-
-# fast build rule for target.
-move_base_msgs_generate_messages_py/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make goal_sender/CMakeFiles/move_base_msgs_generate_messages_py.dir/build
-.PHONY : move_base_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
-.PHONY : goal_sender/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_cpp: goal_sender/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
-.PHONY : nav_msgs_generate_messages_cpp
-
-# fast build rule for target.
-nav_msgs_generate_messages_cpp/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make goal_sender/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
-.PHONY : nav_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
-.PHONY : goal_sender/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_lisp: goal_sender/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
-.PHONY : nav_msgs_generate_messages_lisp
-
-# fast build rule for target.
-nav_msgs_generate_messages_lisp/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make goal_sender/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
-.PHONY : nav_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
-.PHONY : goal_sender/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_py: goal_sender/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
-.PHONY : nav_msgs_generate_messages_py
-
-# fast build rule for target.
-nav_msgs_generate_messages_py/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make goal_sender/CMakeFiles/nav_msgs_generate_messages_py.dir/build
-.PHONY : nav_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-.PHONY : goal_sender/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_cpp: goal_sender/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-.PHONY : tf2_msgs_generate_messages_cpp
-
-# fast build rule for target.
-tf2_msgs_generate_messages_cpp/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make goal_sender/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
-.PHONY : tf2_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
-.PHONY : goal_sender/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_lisp: goal_sender/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
-.PHONY : tf2_msgs_generate_messages_lisp
-
-# fast build rule for target.
-tf2_msgs_generate_messages_lisp/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make goal_sender/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
-.PHONY : tf2_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-.PHONY : goal_sender/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_py: goal_sender/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-.PHONY : tf2_msgs_generate_messages_py
-
-# fast build rule for target.
-tf2_msgs_generate_messages_py/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make goal_sender/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
-.PHONY : tf2_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/tf_generate_messages_cpp.dir/rule
-.PHONY : goal_sender/CMakeFiles/tf_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_cpp: goal_sender/CMakeFiles/tf_generate_messages_cpp.dir/rule
-.PHONY : tf_generate_messages_cpp
-
-# fast build rule for target.
-tf_generate_messages_cpp/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/tf_generate_messages_cpp.dir/build.make goal_sender/CMakeFiles/tf_generate_messages_cpp.dir/build
-.PHONY : tf_generate_messages_cpp/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/tf_generate_messages_lisp.dir/rule
-.PHONY : goal_sender/CMakeFiles/tf_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_lisp: goal_sender/CMakeFiles/tf_generate_messages_lisp.dir/rule
-.PHONY : tf_generate_messages_lisp
-
-# fast build rule for target.
-tf_generate_messages_lisp/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/tf_generate_messages_lisp.dir/build.make goal_sender/CMakeFiles/tf_generate_messages_lisp.dir/build
-.PHONY : tf_generate_messages_lisp/fast
-
-# Convenience name for target.
-goal_sender/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 goal_sender/CMakeFiles/tf_generate_messages_py.dir/rule
-.PHONY : goal_sender/CMakeFiles/tf_generate_messages_py.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_py: goal_sender/CMakeFiles/tf_generate_messages_py.dir/rule
-.PHONY : tf_generate_messages_py
-
-# fast build rule for target.
-tf_generate_messages_py/fast:
-	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/tf_generate_messages_py.dir/build.make goal_sender/CMakeFiles/tf_generate_messages_py.dir/build
-.PHONY : tf_generate_messages_py/fast
+goal_sender_simple/fast:
+	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/goal_sender_simple.dir/build.make goal_sender/CMakeFiles/goal_sender_simple.dir/build
+.PHONY : goal_sender_simple/fast
 
 src/goal_sender_converter.o: src/goal_sender_converter.cpp.o
 .PHONY : src/goal_sender_converter.o
@@ -477,45 +239,55 @@ src/goal_sender_node.cpp.s:
 	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/goal_sender_node.dir/build.make goal_sender/CMakeFiles/goal_sender_node.dir/src/goal_sender_node.cpp.s
 .PHONY : src/goal_sender_node.cpp.s
 
+src/goal_sender_simple.o: src/goal_sender_simple.cpp.o
+.PHONY : src/goal_sender_simple.o
+
+# target to build an object file
+src/goal_sender_simple.cpp.o:
+	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/goal_sender_simple.dir/build.make goal_sender/CMakeFiles/goal_sender_simple.dir/src/goal_sender_simple.cpp.o
+.PHONY : src/goal_sender_simple.cpp.o
+
+src/goal_sender_simple.i: src/goal_sender_simple.cpp.i
+.PHONY : src/goal_sender_simple.i
+
+# target to preprocess a source file
+src/goal_sender_simple.cpp.i:
+	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/goal_sender_simple.dir/build.make goal_sender/CMakeFiles/goal_sender_simple.dir/src/goal_sender_simple.cpp.i
+.PHONY : src/goal_sender_simple.cpp.i
+
+src/goal_sender_simple.s: src/goal_sender_simple.cpp.s
+.PHONY : src/goal_sender_simple.s
+
+# target to generate assembly for a file
+src/goal_sender_simple.cpp.s:
+	cd /home/rabot/catkin_ws/build && $(MAKE) -f goal_sender/CMakeFiles/goal_sender_simple.dir/build.make goal_sender/CMakeFiles/goal_sender_simple.dir/src/goal_sender_simple.cpp.s
+.PHONY : src/goal_sender_simple.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... actionlib_generate_messages_cpp"
-	@echo "... actionlib_generate_messages_lisp"
-	@echo "... actionlib_generate_messages_py"
-	@echo "... actionlib_msgs_generate_messages_cpp"
-	@echo "... actionlib_msgs_generate_messages_lisp"
-	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... goal_sender_converter"
 	@echo "... goal_sender_node"
+	@echo "... goal_sender_simple"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
-	@echo "... move_base_msgs_generate_messages_cpp"
-	@echo "... move_base_msgs_generate_messages_lisp"
-	@echo "... move_base_msgs_generate_messages_py"
-	@echo "... nav_msgs_generate_messages_cpp"
-	@echo "... nav_msgs_generate_messages_lisp"
-	@echo "... nav_msgs_generate_messages_py"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... tf2_msgs_generate_messages_cpp"
-	@echo "... tf2_msgs_generate_messages_lisp"
-	@echo "... tf2_msgs_generate_messages_py"
-	@echo "... tf_generate_messages_cpp"
-	@echo "... tf_generate_messages_lisp"
-	@echo "... tf_generate_messages_py"
 	@echo "... src/goal_sender_converter.o"
 	@echo "... src/goal_sender_converter.i"
 	@echo "... src/goal_sender_converter.s"
 	@echo "... src/goal_sender_node.o"
 	@echo "... src/goal_sender_node.i"
 	@echo "... src/goal_sender_node.s"
+	@echo "... src/goal_sender_simple.o"
+	@echo "... src/goal_sender_simple.i"
+	@echo "... src/goal_sender_simple.s"
 .PHONY : help
 
 

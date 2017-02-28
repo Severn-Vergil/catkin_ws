@@ -628,6 +628,12 @@ bondcpp_DIR:PATH=/opt/ros/indigo/share/bondcpp/cmake
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
 
+//Value Computed by CMake
+ccc_task_BINARY_DIR:STATIC=/home/rabot/catkin_ws/build/ccc_task
+
+//Value Computed by CMake
+ccc_task_SOURCE_DIR:STATIC=/home/rabot/catkin_ws/src/ccc_task
+
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/indigo/share/class_loader/cmake
 
@@ -1092,7 +1098,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=24
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=25
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

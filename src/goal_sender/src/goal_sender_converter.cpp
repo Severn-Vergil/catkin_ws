@@ -10,14 +10,10 @@ using namespace std;
 ros::Publisher cmdVelPub;
 geometry_msgs::Twist speed;
 
-
 void callback(const geometry_msgs::Twist& twist_msg)
 {
-	ros::Rate loopRate(50);
     speed = twist_msg;
 	cmdVelPub.publish(speed);
-	loopRate.sleep();
-
 }
 
 int main(int argc, char **argv)
